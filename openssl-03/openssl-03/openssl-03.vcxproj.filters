@@ -15,8 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="openssl-03.cpp">
+    <ClCompile Include="GenCert.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="openssl-03.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="openssl-03.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

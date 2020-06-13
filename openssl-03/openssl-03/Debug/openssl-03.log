@@ -1,0 +1,13 @@
+﻿openssl-03.obj : error LNK2019: 无法解析的外部符号 _BIO_new_file，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _BIO_free，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _BIO_ctrl，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _BN_new，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _BN_set_word，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _BN_free，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _RSA_new，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _RSA_generate_key_ex，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _RSA_free，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _RSA_print_fp，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _PEM_write_bio_RSAPrivateKey，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+openssl-03.obj : error LNK2019: 无法解析的外部符号 _PEM_write_bio_RSAPublicKey，该符号在函数 "void __cdecl testWriteRSA2PEM(void)" (?testWriteRSA2PEM@@YAXXZ) 中被引用
+G:\QQPCmgr\Desktop\桌面文件\vs项目\opensslPro2\openssl-03\Debug\openssl-03.exe : fatal error LNK1120: 12 个无法解析的外部命令
